@@ -1,4 +1,4 @@
-# Aula 02 - Variáveis e Mutabilidade
+# Aula 02 - Variáveis 
 
 ## Objetivo
 

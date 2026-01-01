@@ -1,169 +1,144 @@
-# 📚 Introdução ao Rust - Primeiros Passos
+# Introdução ao Rust - Primeiros Passos
 
-## Por que estou estudando Rust?
+## O que é Rust?
 
-### Objetivo Principal: Bitcoin Developer & Robotics Engineer
+Rust é uma linguagem de programação de sistemas que oferece três garantias principais:
 
-Escolhi aprender Rust com dois objetivos principais:
-
-1. **Bitcoin Developer** 🪙
-   - Rust é a linguagem mais usada em projetos Bitcoin moderno
-   - Segurança garantida em nível de compilação
-   - Performance extrema necessária para blockchain
-   - Comunidade Bitcoin confia em Rust (Starknet, Bitcoin Core, etc.)
-
-2. **Hobby: Robotica** 🤖
-   - Rust é excelente para sistemas embarcados
-   - Controle de hardware com segurança de memória
-   - Comunidades de IoT e embarcados adotam Rust
-   - Frameworks como Embassy e others facilitam desenvolvimento
+- **Segurança**: Sem vazamentos de memória, sem acessos nulos perigosos
+- **Performance**: Tão rápida quanto C/C++, sem garbage collector
+- **Concorrência**: Garante thread-safety em tempo de compilação
 
 ---
 
-## História do Rust
+## Por que aprender Rust?
 
-### Origem
-- **Criador**: Graydon Hoare (Mozilla) em 2006
-- **Primeira Versão Estável**: Rust 1.0 (15 de maio de 2015)
-- **Motivação**: Solucionar problemas de segurança de memória do C/C++
+### 1. Segurança de Memória
+- Rust impede uma classe inteira de bugs em tempo de compilação
+- Sem buffer overflows, use-after-free ou null pointers perigosos
+- O compilador garante que código compilado é seguro
 
-### Timeline
-
-| Ano | Evento |
-|-----|--------|
-| 2006 | Início do projeto Rust |
-| 2010 | Mozilla adota Rust |
-| 2015 | Rust 1.0 - Primeira versão estável |
-| 2020 | Rust em produção em grandes empresas |
-| 2023 | Rust entra no Linux kernel |
-| 2024 | Rust se torna mainstream |
-
----
-
-## Vantagens do Rust
-
-### ✅ Segurança de Memória (sem Garbage Collector)
-```
-Nenhum acesso nulo, sem buffer overflow, sem use-after-free
-```
-
-### ✅ Performance
+### 2. Performance Extrema
 - Compilado em código nativo
 - Zero-cost abstractions
-- Comparável ao C/C++
+- Comparável ao C/C++ em eficiência
 
-### ✅ Concorrência Segura
-```rust
-// Rust garante thread-safety em tempo de compilação
-// Problema da maioria das linguagens resolvido!
-```
+### 3. Concorrência Segura
+- Rust garante thread-safety em tempo de compilação
+- Problema da maioria das linguagens resolvido automaticamente
 
-### ✅ Excelente Gerenciamento de Recursos
-- Ownership system
-- RAII (Resource Acquisition Is Initialization)
-- Sem vazamento de memória
-
-### ✅ Comunidade Ativa
-- Crescimento exponencial
-- Documentação excelente
-- Crates.io com milhares de bibliotecas
-
-### ✅ Versatilidade
-- Web (Actix, Rocket, Warp)
-- CLI (Clap, Structopt)
-- Sistemas embarcados (Embassy, STM32)
-- Blockchain (Solana, Bitcoin)
-- Desktops (Tauri, Druid)
+### 4. Versatilidade
+- Sistemas embarcados e IoT
+- Blockchain e criptografia
+- Web e CLI
+- Desktops e aplicações nativas
 
 ---
 
-## Desvantagens do Rust
+## Características Principais
 
-### ❌ Curva de Aprendizado Acentuada
+### Ownership System
+
+O sistema de propriedade de Rust é único e resolve problema de gerenciamento de memória:
+
 ```
-O borrow checker é complexo para iniciantes
-Mensagens de erro podem ser confusas
-Paradigma diferente de outras linguagens
-```
-
-### ❌ Tempo de Compilação
-- Mais lento que linguagens interpretadas
-- Build times podem ser frustrantes inicialmente
-
-### ❌ Sintaxe Verbosa
-```rust
-// Rust exige explicitação de tipos em muitos casos
-let numero: i32 = 42;  // Tipo explícito necessário as vezes
+Cada valor tem um proprietário
+Quando o proprietário sai de escopo, o valor é liberado
+Sem garbage collector, sem vazamento de memória
 ```
 
-### ❌ Menor Ecosistema que Python/JS
-- Menos bibliotecas maduras
-- Menos tutoriais online
-- Comunidade menor (mas crescendo)
+### Borrow Checker
 
-### ❌ Borrow Checker Restritivo
-```rust
-// Regras rigorosas podem ser frustrantes
-// Mas elas garantem segurança!
+Sistema de empréstimos que permite compartilhar dados com segurança:
+
+```
+Você pode ter múltiplas leituras OU uma escrita
+Nunca ambas ao mesmo tempo
+Validado em tempo de compilação
 ```
 
-### ❌ Desenvolvimento Mais Lento Inicialmente
-- Tempo gasto compreendendo o ownership
-- Mas resultará em código mais seguro
+### Type System Forte
+
+Tipagem estática que captura erros em tempo de compilação:
+
+```
+Sem type coercion implícita
+Conversões explícitas obrigatórias
+Máxima segurança de tipo
+```
 
 ---
 
-## Como Rust vai me ajudar nesses objetivos
+## Vantagens
 
-### Para Bitcoin Developer 🪙
-
-| Aspecto | Por que Rust |
-|---------|-------------|
-| Segurança | Nenhum risco de hack por memória |
-| Performance | Processamento de transações rápido |
-| Confiabilidade | Código compila = código confiável |
-| Smart Contracts | Linguagens como Cairo (Starknet) usam Rust |
-
-**Projetos Bitcoin em Rust:**
-- Bitcoin Core (em transição)
-- Rust Bitcoin kit
-
-**Projetos Web em Rust:**
-- Axum
-
-### Para Robotica 🤖
-
-| Aspecto | Por que Rust |
-|---------|-------------|
-| Segurança | Nenhum crash inesperado |
-| Eficiência | Roda em microcontroladores |
-| Concorrência | Múltiplos sensores simultaneamente |
-| Comunidade | Projetos ativos em robótica |
-
-**Frameworks para Robotica:**
-- Embassy (Sistemas embarcados)
-- Embedded HAL
-- ROS2 com Rust
+- Segurança garantida em tempo de compilação
+- Performance comparável a C/C++
+- Excelente tratamento de erros
+- Documentação de qualidade
+- Comunidade crescente e acolhedora
+- Ecossistema maduro (crates.io)
 
 ---
 
-## Próximos Passos
+## Desvantagens
 
-Este curso básico cobre:
-
-1. **Aula 1** - Ação, Cargo e println!
-2. **Aula 2** - Variáveis e Mutabilidade
-3. **Aula 3** - Tipos Primitivos e Data Types
-
-Prepare-se para uma jornada desafiadora mas recompensadora! 🚀
+- Curva de aprendizado acentuada
+- Tempo de compilação maior
+- Borrow checker pode ser restritivo inicialmente
+- Menor ecossistema que Python/JavaScript
+- Desenvolvimento mais lento nos primeiros projetos
 
 ---
 
-## Referências
+## Quando usar Rust?
+
+Use Rust quando:
+- Performance crítica é necessária
+- Segurança de memória é essencial
+- Sistemas embarcados/low-level
+- Blockchain e criptografia
+- CLI tools performáticos
+
+Evite Rust quando:
+- Prototipagem rápida é prioridade
+- Projeto é muito simples (Python/Go seriam melhores)
+- Equipe inexperiente em linguagens compiladas
+
+---
+
+## História Resumida
+
+- 2006: Graydon Hoare começou o projeto na Mozilla
+- 2010: Mozilla adotou Rust oficialmente
+- 2015: Rust 1.0 - Primeira versão estável
+- 2020: Adoção em grandes empresas
+- 2023: Rust entra no Linux kernel
+- 2024: Rust se torna mainstream
+
+---
+
+## O que vem a seguir?
+
+Neste módulo básico, você aprenderá:
+
+1. Instalação e primeiros passos
+2. Variáveis e tipos primitivos
+3. Funções e escopo
+4. Controle de fluxo
+5. Ownership e borrowing
+6. Strings e coleções
+
+Cada tópico tem exercícios práticos.
+
+---
+
+## Recursos Úteis
 
 - [The Rust Book](https://doc.rust-lang.org/book/)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-- [Bitcoin Developer Reference](https://developer.bitcoin.org/)
-- [Embassy Docs](https://embassy.dev/)
-- [Btrust]()
+- [Playground Rust Online](https://play.rust-lang.org/)
+- [Crates.io - Repositório de Pacotes](https://crates.io/)
+
+---
+
+**Última atualização**: Dezembro 2025
 
