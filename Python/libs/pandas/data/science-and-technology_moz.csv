@@ -1,0 +1,131 @@
+Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
+#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
+Mozambique,MOZ,2018,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,2862442.76
+Mozambique,MOZ,2017,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,15615001.38
+Mozambique,MOZ,2016,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,19003105.27
+Mozambique,MOZ,2015,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,26793739.52
+Mozambique,MOZ,2014,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,19574342.62
+Mozambique,MOZ,2013,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,24529769.7972946
+Mozambique,MOZ,2012,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,8054486.93
+Mozambique,MOZ,2011,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,4721835.26
+Mozambique,MOZ,2010,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,3807426.9274
+Mozambique,MOZ,2009,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,3554354.5755
+Mozambique,MOZ,2008,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,1906090.57194171
+Mozambique,MOZ,2007,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,2361670.8721
+Mozambique,MOZ,2006,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,2338960
+Mozambique,MOZ,2005,"Charges for the use of intellectual property, payments (BoP, current US$)",BM.GSR.ROYL.CD,5656758.83
+Mozambique,MOZ,2012,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,122122.62
+Mozambique,MOZ,2011,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,241795.9
+Mozambique,MOZ,2009,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,192948.52
+Mozambique,MOZ,2008,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,842.24
+Mozambique,MOZ,2007,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,45199
+Mozambique,MOZ,2006,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,1017687
+Mozambique,MOZ,2005,"Charges for the use of intellectual property, receipts (BoP, current US$)",BX.GSR.ROYL.CD,2203171
+Mozambique,MOZ,2015,Research and development expenditure (% of GDP),GB.XPD.RSDV.GD.ZS,0.30814
+Mozambique,MOZ,2010,Research and development expenditure (% of GDP),GB.XPD.RSDV.GD.ZS,0.37595
+Mozambique,MOZ,2008,Research and development expenditure (% of GDP),GB.XPD.RSDV.GD.ZS,0.13607
+Mozambique,MOZ,2006,Research and development expenditure (% of GDP),GB.XPD.RSDV.GD.ZS,0.3977
+Mozambique,MOZ,2002,Research and development expenditure (% of GDP),GB.XPD.RSDV.GD.ZS,0.35598
+Mozambique,MOZ,2022,Scientific and technical journal articles,IP.JRN.ARTC.SC,194.32
+Mozambique,MOZ,2021,Scientific and technical journal articles,IP.JRN.ARTC.SC,219.67
+Mozambique,MOZ,2020,Scientific and technical journal articles,IP.JRN.ARTC.SC,176.28
+Mozambique,MOZ,2019,Scientific and technical journal articles,IP.JRN.ARTC.SC,155.23
+Mozambique,MOZ,2018,Scientific and technical journal articles,IP.JRN.ARTC.SC,150.7
+Mozambique,MOZ,2017,Scientific and technical journal articles,IP.JRN.ARTC.SC,133
+Mozambique,MOZ,2016,Scientific and technical journal articles,IP.JRN.ARTC.SC,109.95
+Mozambique,MOZ,2015,Scientific and technical journal articles,IP.JRN.ARTC.SC,105.17
+Mozambique,MOZ,2014,Scientific and technical journal articles,IP.JRN.ARTC.SC,87.45
+Mozambique,MOZ,2013,Scientific and technical journal articles,IP.JRN.ARTC.SC,69.92
+Mozambique,MOZ,2012,Scientific and technical journal articles,IP.JRN.ARTC.SC,63.44
+Mozambique,MOZ,2011,Scientific and technical journal articles,IP.JRN.ARTC.SC,74.34
+Mozambique,MOZ,2010,Scientific and technical journal articles,IP.JRN.ARTC.SC,46.66
+Mozambique,MOZ,2009,Scientific and technical journal articles,IP.JRN.ARTC.SC,58.37
+Mozambique,MOZ,2008,Scientific and technical journal articles,IP.JRN.ARTC.SC,48.7
+Mozambique,MOZ,2007,Scientific and technical journal articles,IP.JRN.ARTC.SC,42.63
+Mozambique,MOZ,2006,Scientific and technical journal articles,IP.JRN.ARTC.SC,44.56
+Mozambique,MOZ,2005,Scientific and technical journal articles,IP.JRN.ARTC.SC,38.87
+Mozambique,MOZ,2004,Scientific and technical journal articles,IP.JRN.ARTC.SC,32.25
+Mozambique,MOZ,2003,Scientific and technical journal articles,IP.JRN.ARTC.SC,26.25
+Mozambique,MOZ,2002,Scientific and technical journal articles,IP.JRN.ARTC.SC,23.8
+Mozambique,MOZ,2001,Scientific and technical journal articles,IP.JRN.ARTC.SC,32.12
+Mozambique,MOZ,2000,Scientific and technical journal articles,IP.JRN.ARTC.SC,22.54
+Mozambique,MOZ,1999,Scientific and technical journal articles,IP.JRN.ARTC.SC,21.68
+Mozambique,MOZ,1998,Scientific and technical journal articles,IP.JRN.ARTC.SC,26.12
+Mozambique,MOZ,1997,Scientific and technical journal articles,IP.JRN.ARTC.SC,20.66
+Mozambique,MOZ,1996,Scientific and technical journal articles,IP.JRN.ARTC.SC,13.02
+Mozambique,MOZ,2021,"Patent applications, nonresidents",IP.PAT.NRES,16
+Mozambique,MOZ,2020,"Patent applications, nonresidents",IP.PAT.NRES,14
+Mozambique,MOZ,2019,"Patent applications, nonresidents",IP.PAT.NRES,24
+Mozambique,MOZ,2018,"Patent applications, nonresidents",IP.PAT.NRES,13
+Mozambique,MOZ,2017,"Patent applications, nonresidents",IP.PAT.NRES,26
+Mozambique,MOZ,2016,"Patent applications, nonresidents",IP.PAT.NRES,25
+Mozambique,MOZ,2015,"Patent applications, nonresidents",IP.PAT.NRES,30
+Mozambique,MOZ,2014,"Patent applications, nonresidents",IP.PAT.NRES,46
+Mozambique,MOZ,2013,"Patent applications, nonresidents",IP.PAT.NRES,30
+Mozambique,MOZ,2012,"Patent applications, nonresidents",IP.PAT.NRES,26
+Mozambique,MOZ,2011,"Patent applications, nonresidents",IP.PAT.NRES,15
+Mozambique,MOZ,2010,"Patent applications, nonresidents",IP.PAT.NRES,25
+Mozambique,MOZ,2009,"Patent applications, nonresidents",IP.PAT.NRES,17
+Mozambique,MOZ,2008,"Patent applications, nonresidents",IP.PAT.NRES,14
+Mozambique,MOZ,2007,"Patent applications, nonresidents",IP.PAT.NRES,26
+Mozambique,MOZ,2006,"Patent applications, nonresidents",IP.PAT.NRES,17
+Mozambique,MOZ,2005,"Patent applications, nonresidents",IP.PAT.NRES,14
+Mozambique,MOZ,2004,"Patent applications, nonresidents",IP.PAT.NRES,4
+Mozambique,MOZ,2003,"Patent applications, nonresidents",IP.PAT.NRES,16
+Mozambique,MOZ,2002,"Patent applications, nonresidents",IP.PAT.NRES,9
+Mozambique,MOZ,2001,"Patent applications, nonresidents",IP.PAT.NRES,1
+Mozambique,MOZ,2000,"Patent applications, nonresidents",IP.PAT.NRES,8
+Mozambique,MOZ,1999,"Patent applications, nonresidents",IP.PAT.NRES,18
+Mozambique,MOZ,2021,"Patent applications, residents",IP.PAT.RESD,30
+Mozambique,MOZ,2020,"Patent applications, residents",IP.PAT.RESD,26
+Mozambique,MOZ,2019,"Patent applications, residents",IP.PAT.RESD,23
+Mozambique,MOZ,2018,"Patent applications, residents",IP.PAT.RESD,34
+Mozambique,MOZ,2017,"Patent applications, residents",IP.PAT.RESD,24
+Mozambique,MOZ,2016,"Patent applications, residents",IP.PAT.RESD,15
+Mozambique,MOZ,2015,"Patent applications, residents",IP.PAT.RESD,24
+Mozambique,MOZ,2014,"Patent applications, residents",IP.PAT.RESD,14
+Mozambique,MOZ,2013,"Patent applications, residents",IP.PAT.RESD,13
+Mozambique,MOZ,2012,"Patent applications, residents",IP.PAT.RESD,14
+Mozambique,MOZ,2011,"Patent applications, residents",IP.PAT.RESD,8
+Mozambique,MOZ,2010,"Patent applications, residents",IP.PAT.RESD,15
+Mozambique,MOZ,2009,"Patent applications, residents",IP.PAT.RESD,7
+Mozambique,MOZ,2008,"Patent applications, residents",IP.PAT.RESD,2
+Mozambique,MOZ,2007,"Patent applications, residents",IP.PAT.RESD,18
+Mozambique,MOZ,2006,"Patent applications, residents",IP.PAT.RESD,1
+Mozambique,MOZ,1999,"Patent applications, residents",IP.PAT.RESD,2
+Mozambique,MOZ,2015,Researchers in R&D (per million people),SP.POP.SCIE.RD.P6,44.41136
+Mozambique,MOZ,2010,Researchers in R&D (per million people),SP.POP.SCIE.RD.P6,40.21198
+Mozambique,MOZ,2009,Researchers in R&D (per million people),SP.POP.SCIE.RD.P6,12.3366
+Mozambique,MOZ,2008,Researchers in R&D (per million people),SP.POP.SCIE.RD.P6,20.60081
+Mozambique,MOZ,2006,Researchers in R&D (per million people),SP.POP.SCIE.RD.P6,16.40562
+Mozambique,MOZ,2015,Technicians in R&D (per million people),SP.POP.TECH.RD.P6,26.74062
+Mozambique,MOZ,2010,Technicians in R&D (per million people),SP.POP.TECH.RD.P6,46.44271
+Mozambique,MOZ,2009,Technicians in R&D (per million people),SP.POP.TECH.RD.P6,2.07209
+Mozambique,MOZ,2008,Technicians in R&D (per million people),SP.POP.TECH.RD.P6,30.22006
+Mozambique,MOZ,2006,Technicians in R&D (per million people),SP.POP.TECH.RD.P6,35.72088
+Mozambique,MOZ,2024,High-technology exports (current US$),TX.VAL.TECH.CD,13740731
+Mozambique,MOZ,2023,High-technology exports (current US$),TX.VAL.TECH.CD,16632000
+Mozambique,MOZ,2022,High-technology exports (current US$),TX.VAL.TECH.CD,18227789
+Mozambique,MOZ,2021,High-technology exports (current US$),TX.VAL.TECH.CD,8017648
+Mozambique,MOZ,2020,High-technology exports (current US$),TX.VAL.TECH.CD,2250366
+Mozambique,MOZ,2019,High-technology exports (current US$),TX.VAL.TECH.CD,4329718
+Mozambique,MOZ,2018,High-technology exports (current US$),TX.VAL.TECH.CD,27233066
+Mozambique,MOZ,2017,High-technology exports (current US$),TX.VAL.TECH.CD,32332952
+Mozambique,MOZ,2016,High-technology exports (current US$),TX.VAL.TECH.CD,12215239
+Mozambique,MOZ,2015,High-technology exports (current US$),TX.VAL.TECH.CD,31400311
+Mozambique,MOZ,2014,High-technology exports (current US$),TX.VAL.TECH.CD,44098229
+Mozambique,MOZ,2013,High-technology exports (current US$),TX.VAL.TECH.CD,82425059
+Mozambique,MOZ,2012,High-technology exports (current US$),TX.VAL.TECH.CD,104748498
+Mozambique,MOZ,2024,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,3.6302648420799
+Mozambique,MOZ,2023,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,2.74244557815277
+Mozambique,MOZ,2022,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,3.17962418116621
+Mozambique,MOZ,2021,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,1.59903962784626
+Mozambique,MOZ,2020,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,0.844313381295891
+Mozambique,MOZ,2019,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,1.08270235723456
+Mozambique,MOZ,2018,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,4.2932104646686
+Mozambique,MOZ,2017,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,10.7105159389031
+Mozambique,MOZ,2016,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,1.62085804316688
+Mozambique,MOZ,2015,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,11.6693867155464
+Mozambique,MOZ,2014,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,5.71655076302865
+Mozambique,MOZ,2013,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,13.6254699105884
+Mozambique,MOZ,2012,High-technology exports (% of manufactured exports),TX.VAL.TECH.MF.ZS,24.740888093136
